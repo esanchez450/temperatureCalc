@@ -50,10 +50,7 @@ fahrenheit and vice versa.\n""")
     t = Temperature(x,x) #not needed in terms of converting but assigned object to class
     i = Interface(x,x)  #needs two parameters but since user will choose degree and scale to convert,
                         #   it will not make a difference
-    iprint = i.selectUnits()
-    print(x, iprint)
-    
-    
+    i.selectUnits()
     
 
 main()
